@@ -7,8 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Company {
+public class Employee {
     private int id;
     private String name;
-    private String country;
+    private String surname;
+    private String email;
+    private Company company;
+
 }
